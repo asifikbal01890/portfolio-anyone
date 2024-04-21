@@ -1,6 +1,12 @@
 *{
     font-family: "Open Sans";
 }
+header{
+    background-image: linear-gradient(#fff8f3de, #FFF8F3);
+    height: 837px;
+    
+}
+
 .menu {
     display: flex;
     justify-content: center;
@@ -14,7 +20,7 @@
     width: 85%;
 }
 .menu-first{
-    font-size: 26px;
+    font-size: 46px;
 }
 .menu-last{
     display: flex;
@@ -38,6 +44,26 @@
     background-color: transparent;
     border: 2px solid #FD6E0A;
     transition-duration: 0.3s;
+}
+.header-bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: -20px;
+  
+}
+.left-bg{
+    background-image: url("/images/developer.png");
+    background-repeat: no-repeat;
+    height: 795px;
+    width: 150px;
+}
+.right-bg{
+   background-image: url("/images/header_bg.png");
+   background-repeat: no-repeat;
+   text-align: end;
+   background-position: right bottom;
+   width: 1000px;
 }
 
 .underline-none {
