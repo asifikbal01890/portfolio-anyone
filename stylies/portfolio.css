@@ -103,19 +103,29 @@ header{
 }
 .w-85{
     width: 85%;
+    margin: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
 }
 
 .underline-none {
     text-decoration: none;
 }
-
+.border-buttom{
+ border-bottom:1px solid #181818;
+}
 .text-black {
     color: #181818;
 }
 .text-orange{
     color: #FD6E0A;
 }
-
+.text-black-300{
+    color: #18181896;
+}
 .text-bold {
     font-weight: 700;
 }
