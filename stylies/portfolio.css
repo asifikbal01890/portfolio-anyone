@@ -33,6 +33,7 @@ header{
 }
 .btn-primary{
     color: white;
+    cursor: pointer;
     font-weight: 600;
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -45,6 +46,21 @@ header{
     border: 2px solid #FD6E0A;
     transition-duration: 0.3s;
 }
+.btn-secondary{
+    color: #FD6E0A;
+    background-color: transparent;
+    border: 2px solid #FD6E0A;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 14px;
+}
+.btn-secondary:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #FD6E0A;
+    transition-duration: 0.3s;
+}
+
 .header-bg{
     display: flex;
     justify-content: space-between;
@@ -65,6 +81,9 @@ header{
    background-position: right bottom;
    width: 1000px;
 }
+.w-25{
+ width: 600px;
+}
 
 .underline-none {
     text-decoration: none;
@@ -79,4 +98,12 @@ header{
 
 .text-bold {
     font-weight: 700;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 400px;
+    left: 160px;
 }
