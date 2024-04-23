@@ -81,8 +81,28 @@ header{
    background-position: right bottom;
    width: 1000px;
 }
+.about-me{
+    margin: auto;
+    padding: 120px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    width: 1380px;
+    text-align: center;
+}
+.about-p{
+    width: 700px;
+    margin: auto;
+}
+.about-f{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px; 
+}
 .w-25{
  width: 600px;
+}
+.w-85{
+    width: 85%;
 }
 
 .underline-none {
